@@ -3,5 +3,4 @@
 - name: AlphaZero Gomoku
   link: pages/gomoku.html
   img: images/gomoku.png
-  desc: A Gomoku web application based on the AlphaZero model. AlphaZero was published by Google DeepMind in 2017, and I implemented it to power the Gomoku web application utilizing CNN and MCTS.
-
+  desc: A Gomoku web application based on the AlphaZero model. AlphaZero was published by Google DeepMind in 2017, and I implemented it to power the Gomoku web application, which replaces hand-crafted heuristics used in AlphaGo with deep neural networks and Monte Carlo Tree Search (MCTS) to learn how to play games from scratch. 
