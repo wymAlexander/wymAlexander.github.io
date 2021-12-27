@@ -1,0 +1,31 @@
+# Site settings
+title: Yimin Wang
+description: 'My Personal Website'
+baseurl: ''
+profilepic: '/images/yimin_wang.png'
+bkimage: '/images/bk1.jpeg'
+google_analytics: UA-XXXXXX-X
+font_awesome: '53d7a3a62b.js'
+
+author:
+  name: 'Yimin Wang'
+  email: 'wangyimin321123@163.com'
+  github_username:  'wymAlexander'
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md']

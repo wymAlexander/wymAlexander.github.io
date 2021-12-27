@@ -1,0 +1,7 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: AlphaZero Gomoku
+  link: pages/gomoku.html
+  img: images/gomoku.png
+  desc: A Gomoku web application based on the AlphaZero model. AlphaZero was published by Google DeepMind in 2017, and I implemented it to power the Gomoku web application utilizing CNN and MCTS.
+
